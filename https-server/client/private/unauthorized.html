@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página não autorizada - HTTPS</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body></body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unauthorized Page - HTTPS</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <h1>Página não autorizada - HTTPS</h1>
+
+    <p>
+      Instale o certificado autoassinado em seu navegador para obter acesso.
+    </p>
+
+    <ol>
+      <li>Instale server/ssl/ca.crt em suas autoridades de certificação.</li>
+      <li>
+        Instale server/ssl/client.p12 em seus certificados pessoais. Quando for
+        solicitada uma senha, não digite nada e apenas clique em OK. Não há
+        senha.
+      </li>
+      <li>
+        Se os certificados expiraram, você pode regenerá-los executando o script
+        generate-certs.sh no diretório server/ssl do projeto.
+      </li>
+    </ol>
+  </body>
+</html>
