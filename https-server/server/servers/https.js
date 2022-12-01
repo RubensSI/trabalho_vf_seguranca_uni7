@@ -41,7 +41,7 @@ function httpsServer(config) {
   // Crie e inicie o servidor https
   https.createServer(httpsOptions, server).listen(port, function () {
     console.log(' ');
-    console.log('Server listening at https://localhost:' + port + '/');
+    console.log('Servidor iniciado em https://localhost:' + port + '/');
   });
 
   return server;

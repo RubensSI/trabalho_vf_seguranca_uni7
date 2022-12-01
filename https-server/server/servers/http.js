@@ -25,7 +25,7 @@ function httpServer(config) {
 
   server.listen(port);
 
-  console.log('Server started at http://localhost:' + port + '/');
+  console.log('Servidor iniciado em http://localhost:' + port + '/');
 
   return server;
 }
