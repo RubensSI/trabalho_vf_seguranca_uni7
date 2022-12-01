@@ -1,3 +1,4 @@
-# express-template
-A template for setting up a node/express server (both http and https)
+# https server
 
+- Para instalar as dependências do node digite dentro do diretório raiz npm install
+- e depois digite npm start ou npm run start para iniciar o aplicativo.
